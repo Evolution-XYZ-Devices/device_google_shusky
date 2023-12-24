@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-include device/google/shusky/BoardConfigLineage.mk
+include device/google/shusky/BoardConfigEvolution.mk
 
 include vendor/google/husky/BoardConfigVendor.mk
