@@ -18,8 +18,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
+<<<<<<< HEAD
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/shusky-kernel/Image.lz4
+=======
+# PixelParts
+include packages/apps/PixelParts/device.mk
+>>>>>>> 6435a93 (shusky: Ship PixelParts)
 
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
