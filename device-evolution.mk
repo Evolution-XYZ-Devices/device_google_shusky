@@ -26,6 +26,9 @@ TARGET_PREBUILT_KERNEL := device/google/shusky-kernel/Image.lz4
 include packages/apps/PixelParts/device.mk
 >>>>>>> 6435a93 (shusky: Ship PixelParts)
 
+# PixelParts
+include packages/apps/PixelParts/device.mk
+
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
